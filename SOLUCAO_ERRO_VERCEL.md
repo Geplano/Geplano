@@ -43,7 +43,9 @@ Environment: Production, Preview, Development (marque todos)
 
 ## 🎯 Por que isso funciona?
 
-O TinaCMS **tenta se conectar** ao TinaCMS Cloud durante o build. Ao adicionar as variáveis (mesmo vazias), ele entende que está em **modo self-hosted** e não tenta conectar.
+O TinaCMS **tenta se conectar** ao TinaCMS Cloud durante o build. Ao adicionar
+as variáveis (mesmo vazias), ele entende que está em **modo self-hosted** e não
+tenta conectar.
 
 **Você NÃO paga nada** - continua 100% grátis!
 

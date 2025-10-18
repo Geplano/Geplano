@@ -71,7 +71,8 @@ npm install
 
 ### **⚠️ IMPORTANTE: Configuração Necessária para Build**
 
-Para o build funcionar no Vercel, você **DEVE** adicionar variáveis de ambiente (mesmo vazias):
+Para o build funcionar no Vercel, você **DEVE** adicionar variáveis de ambiente
+(mesmo vazias):
 
 **No Vercel (Settings → Environment Variables), adicione:**
 
@@ -80,7 +81,8 @@ NEXT_PUBLIC_TINA_CLIENT_ID=
 TINA_TOKEN=
 ```
 
-**Sim, deixe os valores VAZIOS!** Isso permite que o build funcione sem TinaCMS Cloud.
+**Sim, deixe os valores VAZIOS!** Isso permite que o build funcione sem TinaCMS
+Cloud.
 
 ---
 
