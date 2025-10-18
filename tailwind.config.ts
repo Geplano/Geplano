@@ -8,7 +8,6 @@ export default {
     "./components/**/*.{ts,tsx,js,jsx}",
     "./node_modules/shadcn-ui/**/*.{js,ts,tsx}",
   ],
-  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
