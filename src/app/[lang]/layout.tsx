@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { IntlProvider } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import fs from "fs";
 import path from "path";
@@ -9,9 +9,9 @@ export default async function LocaleLayout({
   params,
 }: {
   children: ReactNode;
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }) {
-  const { lang } = params;
+  const { lang } = await params;
   const supported = ["pt-BR", "en"];
   if (!supported.includes(lang)) return notFound();
 
@@ -27,10 +27,9 @@ export default async function LocaleLayout({
   return (
     <html lang={lang}>
       <body>
-        {/* Se preferir usar NextIntlClientProvider = import dynamic se for client */}
-        <IntlProvider locale={lang} messages={messages}>
+        <NextIntlClientProvider locale={lang} messages={messages}>
           {children}
-        </IntlProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
