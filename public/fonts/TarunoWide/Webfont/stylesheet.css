@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-Italic.woff2") format("woff2"),
+    url("TarunoWide-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-Black.woff2") format("woff2"),
+    url("TarunoWide-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-Bold.woff2") format("woff2"),
+    url("TarunoWide-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-BlackItalic.woff2") format("woff2"),
+    url("TarunoWide-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-LightItalic.woff2") format("woff2"),
+    url("TarunoWide-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-MediumItalic.woff2") format("woff2"),
+    url("TarunoWide-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-Light.woff2") format("woff2"),
+    url("TarunoWide-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-BoldItalic.woff2") format("woff2"),
+    url("TarunoWide-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-Medium.woff2") format("woff2"),
+    url("TarunoWide-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-ThinItalic.woff2") format("woff2"),
+    url("TarunoWide-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-Regular.woff2") format("woff2"),
+    url("TarunoWide-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Taruno Wide";
+  src:
+    url("TarunoWide-Thin.woff2") format("woff2"),
+    url("TarunoWide-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}

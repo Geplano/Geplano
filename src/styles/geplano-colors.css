@@ -1,0 +1,35 @@
+.bg-geplano-green-section {
+  background-color: #00613a;
+}
+.bg-geplano-gold {
+  background-color: #a37e2b;
+}
+.text-geplano-gold {
+  color: #a37e2b;
+}
+.border-geplano-gold {
+  border-color: #a37e2b;
+}
+
+/* Section Padding */
+.section-padding {
+  padding: 4rem 1rem;
+}
+@media (min-width: 768px) {
+  .section-padding {
+    padding: 6rem 2rem;
+  }
+}
+
+/* Scroll Reveal Animation */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.8s ease-out,
+    transform 0.8s ease-out;
+}
+.scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

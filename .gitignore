@@ -23,15 +23,18 @@
 # misc
 .DS_Store
 *.pem
+Thumbs.db
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+lerna-debug.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +42,48 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# TinaCMS
+.tina/__generated__
+tina/__generated__
+public/admin/index.html
+# Manter apenas public/admin/.gitignore
+
+# Contentlayer (caso use no futuro)
+.contentlayer
+
+# Protótipo HTML (não necessário no deploy)
+/prototipo/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.cache
+.turbo
+
+# Lock files (escolha um: npm, yarn ou pnpm)
+# Descomente se usar yarn ou pnpm:
+# yarn.lock
+# pnpm-lock.yaml

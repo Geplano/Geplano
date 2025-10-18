@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* design tokens (exemplo) */
+:root {
+  --bg: #ffffff;
+  --text: #111827;
+}
+[data-theme="dark"] {
+  --bg: #0b0f14;
+  --text: #e6eef8;
+}
+
+.bg-app {
+  background-color: var(--bg);
+}
+.text-app {
+  color: var(--text);
+}

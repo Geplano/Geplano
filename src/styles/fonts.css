@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "TarunoWide";
+  src:
+    url("https://cdn.jsdelivr.net/gh/silviowagner/geplano-fonts/TarunoWide-Bold.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/silviowagner/geplano-fonts/TarunoWide-Bold.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-taruno {
+  font-family: "TarunoWide", sans-serif;
+}
