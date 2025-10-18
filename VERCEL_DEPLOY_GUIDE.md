@@ -69,16 +69,37 @@ npm install
 
 ## 🔐 Variáveis de Ambiente (Environment Variables)
 
-### **MODO 1: Sem TinaCMS Cloud (Recomendado para começar)**
+### **⚠️ IMPORTANTE: Configuração Necessária para Build**
 
-❌ **NÃO precisa configurar nenhuma variável**
+Para o build funcionar no Vercel, você **DEVE** adicionar variáveis de ambiente (mesmo vazias):
 
-O TinaCMS vai funcionar apenas localmente (`npm run dev:tina`). Para editar em
-produção, use o método GitHub (editar `hero.json` direto).
+**No Vercel (Settings → Environment Variables), adicione:**
+
+```env
+NEXT_PUBLIC_TINA_CLIENT_ID=
+TINA_TOKEN=
+```
+
+**Sim, deixe os valores VAZIOS!** Isso permite que o build funcione sem TinaCMS Cloud.
 
 ---
 
-### **MODO 2: Com TinaCMS Cloud (Painel visual em produção)**
+### **MODO 1: Sem TinaCMS Cloud (Recomendado - Grátis)**
+
+✅ **Configuração mínima (apenas para build funcionar):**
+
+1. Vá em **Vercel → Settings → Environment Variables**
+2. Adicione as variáveis **VAZIAS**:
+   ```
+   NEXT_PUBLIC_TINA_CLIENT_ID = (deixe vazio)
+   TINA_TOKEN = (deixe vazio)
+   ```
+3. Deploy funcionará normalmente
+4. Para editar conteúdo: use GitHub (edite `hero.json` direto)
+
+---
+
+### **MODO 2: Com TinaCMS Cloud (Painel visual em produção - Pago)**
 
 Se quiser usar o painel `/admin` em produção, configure:
 
